@@ -1,4 +1,5 @@
-function a() {
-  alert("Hello new user!");
+function calc( a, b ) {
+  var sum = a + b ;
 }
-a();
+calc( 10 , 10 );
+alert(sum)
