@@ -72,16 +72,15 @@ p3 {color: white;
     }
 .signinbox {
     background-color: #C0C0C0;
-    margin: 10px, 10px, 10px, 10px;
     left: 0;
     bottom: 0;
     position: absolute;
     }
 .inputu(){
-    position: absolute;
+    top: 50%;
     }
 .inputp{
-    position: absolute;
+    top: 50%;
     }
     </style>
 </head>
@@ -124,9 +123,14 @@ What were we...
     </a>
              <a type="button" class="button2" id="signinbutton">
 Sign In
-    </a><a class="signinbox">
+<table class="signinbox">
+    <tr><td>
     <input class="inputu" id="username"><br>
+        </td></tr>
+        <tr><td>
     <input class="inputp" id="password">
+                   </td></tr>
+                 </table>
             <script src="index.js"></script>
 </body>
 </html>
