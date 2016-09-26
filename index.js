@@ -1,5 +1,5 @@
-function rc(name, age) {
-alert(name);
-alert(age);
+function calc(num1, num2){
+  var sum =num1+num2;
+  alert(sum);
 }
-rc("Spencer", 14);
+calc(14, 5);
