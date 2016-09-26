@@ -1,1 +1,4 @@
-alert("Hello, I Work!");
+function a() {
+  alert("Hello new user!");
+}
+a();
