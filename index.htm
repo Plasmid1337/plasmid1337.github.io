@@ -78,12 +78,6 @@ p3 {color: white;
     bottom: 0;
     position: absolute;
     }
-.inputu(){
-vertical-align:middle;
-    }
-.inputp{
-vertical-align:middle;
-    }
     </style>
 </head>
 <body background="plasmid_site_bg.jpg">
@@ -123,17 +117,13 @@ What were we...
          <a type="button" class="button3" onclick="document.getElementById('AIRHORN.mp3').play();">
          Don't Click Me
     </a>
-             <a type="button" class="button2" id="signinbutton">
-Sign In
-    </a>
     <table class="signinbox">
     <tr><td>
-    <input class="inputu" id="username"><br>
+    <input name="username" type="text"><br/>
         </td></tr>
         <tr><td>
-    <input class="inputp" id="password">
-                   </td></tr>
+    <input name="password" type="text"><br/>                   
+            </td></tr>
                  </table>
-            <script src="index.js"></script>
 </body>
 </html>
